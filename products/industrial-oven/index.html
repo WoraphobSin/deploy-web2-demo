@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>const deploymentBase = "/deploy-web2-demo/"; document.write(`<base href="${location.pathname.startsWith(deploymentBase) ? deploymentBase : "/"}">`);</script>
+    <meta name="theme-color" content="#101c32">
+    <meta name="description" content="ตู้อบอุตสาหกรรมระบบฮีตเตอร์ ออกแบบตามการใช้งานจริง พร้อมระบบควบคุมอุณหภูมิ">
+    <title>ตู้อบอุตสาหกรรม Oven By Heater | Heatworks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-contact">
+          <a href="tel:+66952365392"><span class="topbar-icon" aria-hidden="true">⌕</span> 095-236-5392</a>
+          <a href="https://lin.ee/VVUymw" target="_blank" rel="noreferrer"><span class="line-mark" aria-hidden="true">L</span> LINE @lyn6666</a>
+          <a href="mailto:lynpowertech19@gmail.com"><span class="topbar-icon" aria-hidden="true">✉</span> lynpowertech19@gmail.com</a>
+        </div>
+        <span class="topbar-note" data-th="วิศวกรรมความร้อน เพื่อการผลิตที่มั่นใจ" data-en="Thermal engineering for confident production">วิศวกรรมความร้อน เพื่อการผลิตที่มั่นใจ</span>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./" aria-label="Heatworks home">
+          <span class="brand-mark" aria-hidden="true"><span>H</span></span>
+          <span class="brand-copy"><strong>HEATWORKS</strong><small>INDUSTRIAL HEATING SYSTEMS</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a href="./" data-th="หน้าแรก" data-en="Home">หน้าแรก</a>
+          <a class="is-current" href="products/" data-th="สินค้า" data-en="Products">สินค้า</a>
+          <a href="projects/" data-th="ผลงาน" data-en="Projects">ผลงาน</a>
+          <a href="articles/" data-th="บทความ" data-en="Articles">บทความ</a>
+          <a href="about/" data-th="เกี่ยวกับเรา" data-en="About">เกี่ยวกับเรา</a>
+          <a href="contact/" data-th="ติดต่อเรา" data-en="Contact">ติดต่อเรา</a>
+          <div class="language-switch" role="group" aria-label="Language">
+            <button type="button" class="is-active" data-language="th" aria-pressed="true">TH</button>
+            <button type="button" data-language="en" aria-pressed="false">EN</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero" id="home">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="container page-hero-content">
+          <div class="breadcrumbs">
+            <a href="./" data-th="หน้าแรก" data-en="Home">หน้าแรก</a><span>/</span>
+            <a href="products/" data-th="สินค้า" data-en="Products">สินค้า</a><span>/</span>
+            <span data-th="เครื่องจักรและโปรเจกต์" data-en="Machinery & projects">เครื่องจักรและโปรเจกต์</span>
+          </div>
+          <p class="eyebrow"><span></span><span data-th="โซลูชันงานอบอุตสาหกรรม" data-en="Industrial drying solution">โซลูชันงานอบอุตสาหกรรม</span></p>
+          <h1 data-th="ตู้อบอุตสาหกรรม<br>Oven By Heater" data-en="Industrial Oven<br>Oven By Heater">ตู้อบอุตสาหกรรม<br>Oven By Heater</h1>
+          <p class="hero-subtitle" data-th="ควบคุมความร้อนอย่างสม่ำเสมอ เพื่อคุณภาพงานผลิตที่เชื่อถือได้" data-en="Consistent heat control for reliable production quality">ควบคุมความร้อนอย่างสม่ำเสมอ เพื่อคุณภาพงานผลิตที่เชื่อถือได้</p>
+          <a class="hero-link" href="#contact"><span data-th="ปรึกษาทีมงาน" data-en="Talk to our team">ปรึกษาทีมงาน</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-index" aria-hidden="true">HW / 01</div>
+      </section>
+
+      <section class="product-section container" id="product">
+        <div class="product-layout">
+          <div class="product-main">
+            <div class="section-kicker"><span class="kicker-line"></span><span data-th="เครื่องจักรและโปรเจกต์" data-en="Machinery & projects">เครื่องจักรและโปรเจกต์</span></div>
+            <div class="gallery">
+              <button class="gallery-main" type="button" aria-label="View product image larger" data-gallery-index="0">
+                <span class="image-count">01 <span>/ 04</span></span>
+                <span class="main-art-wrap">
+                  <svg class="product-art art-front" viewBox="0 0 640 460" role="img" aria-label="ตู้อบอุตสาหกรรมมุมมองด้านหน้า">
+                    <defs>
+                      <linearGradient id="cabinet" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f6f8fa"/><stop offset=".52" stop-color="#cbd4df"/><stop offset="1" stop-color="#8998a9"/></linearGradient>
+                      <linearGradient id="door" x1="0" x2="1"><stop stop-color="#294568"/><stop offset=".6" stop-color="#182b45"/><stop offset="1" stop-color="#0e1a2c"/></linearGradient>
+                      <linearGradient id="warm" x1="0" x2="1"><stop stop-color="#ffbf70"/><stop offset="1" stop-color="#ee7040"/></linearGradient>
+                    </defs>
+                    <ellipse cx="324" cy="408" rx="217" ry="25" fill="#19273a" opacity=".12"/>
+                    <path d="M183 78h291l35 22v264l-34 25H183l-29-24V101z" fill="#abb7c4"/>
+                    <path d="M182 75h287l31 22v264l-28 17H182z" fill="url(#cabinet)" stroke="#718094" stroke-width="3"/>
+                    <path d="M470 98l30-1v264l-29 17z" fill="#8291a2"/>
+                    <path d="M205 105h222v227H205z" fill="url(#door)" stroke="#718094" stroke-width="5"/>
+                    <path d="M220 120h192v196H220z" fill="#283d57" stroke="#718094" stroke-width="2"/>
+                    <path d="M233 134h165v168H233z" fill="#101c2c"/>
+                    <path d="M240 143h150v151H240z" fill="#f3a55d" opacity=".17"/>
+                    <path d="M240 145h150M240 184h150M240 222h150M240 260h150" stroke="#d7e0e8" stroke-width="3" opacity=".76"/>
+                    <path d="M252 139v158M286 139v158M322 139v158M357 139v158M385 139v158" stroke="url(#warm)" stroke-width="2" opacity=".7"/>
+                    <path d="M440 106h38v230h-38z" fill="#e2e8ee" stroke="#8493a3" stroke-width="2"/>
+                    <rect x="445" y="119" width="28" height="44" rx="4" fill="#172941"/>
+                    <rect x="449" y="124" width="20" height="12" rx="2" fill="#83d3bf"/>
+                    <path d="M451 148h17M451 155h13" stroke="#ecf1f5" stroke-width="2"/>
+                    <circle cx="459" cy="190" r="8" fill="#dd6b4d"/><circle cx="459" cy="220" r="8" fill="#58b695"/>
+                    <path d="M459 240v17m-8 0h16" stroke="#52667c" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M190 390h27v20h-27zm244 0h27v20h-27z" fill="#39495c"/>
+                    <circle cx="204" cy="414" r="9" fill="#29394d"/><circle cx="448" cy="414" r="9" fill="#29394d"/>
+                    <path d="M175 72h308" stroke="#fff" stroke-width="5" opacity=".6"/>
+                  </svg>
+                </span>
+                <span class="view-label"><span aria-hidden="true">⌕</span><span data-th="คลิกเพื่อขยาย" data-en="Click to enlarge">คลิกเพื่อขยาย</span></span>
+              </button>
+              <div class="gallery-thumbs" role="group" aria-label="Product images">
+                <button class="gallery-thumb is-selected" type="button" data-gallery-index="0" aria-label="View image 1" aria-pressed="true">
+                  <svg class="product-art art-front" viewBox="0 0 640 460" aria-hidden="true">
+                    <path d="M190 82h260v285H190z" fill="#cbd4df" stroke="#718094" stroke-width="7"/>
+                    <path d="M214 106h174v229H214z" fill="#172a43" stroke="#718094" stroke-width="5"/>
+                    <path d="M230 126h142v184H230z" fill="#f3a55d" opacity=".22"/>
+                    <path d="M230 160h142m-142 40h142m-142 40h142m-142 40h142" stroke="#e8eef4" stroke-width="4"/>
+                    <path d="M402 105h28v232h-28z" fill="#e2e8ee" stroke="#8493a3" stroke-width="3"/>
+                    <rect x="407" y="121" width="18" height="32" rx="3" fill="#172941"/>
+                    <circle cx="416" cy="181" r="7" fill="#dd6b4d"/><circle cx="416" cy="210" r="7" fill="#58b695"/>
+                    <path d="M205 370h24v20h-24zm205 0h24v20h-24z" fill="#39495c"/>
+                  </svg>
+                  <span>01</span>
+                </button>
+                <button class="gallery-thumb" type="button" data-gallery-index="1" aria-label="View image 2" aria-pressed="false">
+                  <svg class="product-art art-blueprint" viewBox="0 0 640 460" aria-hidden="true">
+                    <rect x="184" y="70" width="278" height="310" rx="4" fill="#e9f2f7" stroke="#56849d" stroke-width="5"/>
+                    <path d="M213 101h181v220H213zM410 101h31v220h-31z" fill="none" stroke="#39728d" stroke-width="5"/>
+                    <path d="M222 125h162M222 170h162M222 215h162M222 260h162M222 305h162" stroke="#78a8bb" stroke-width="4"/>
+                    <path d="M198 58v-22h-18m293 22v-22h18M198 394v22h-18m293-22v22h18" fill="none" stroke="#39728d" stroke-width="3"/>
+                    <path d="M177 46h302M177 429h302M166 70v310M491 70v310" stroke="#7eaabd" stroke-width="2" stroke-dasharray="8 7"/>
+                    <text x="284" y="405" fill="#39728d" font-size="16" font-family="sans-serif">OVEN / SERIES 01</text>
+                  </svg>
+                  <span>02</span>
+                </button>
+                <button class="gallery-thumb" type="button" data-gallery-index="2" aria-label="View image 3" aria-pressed="false">
+                  <svg class="product-art art-controls" viewBox="0 0 640 460" aria-hidden="true">
+                    <defs><linearGradient id="panel" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e6ebef"/><stop offset="1" stop-color="#9aa7b5"/></linearGradient></defs>
+                    <path d="M105 115h430v230H105z" rx="14" fill="#31465f"/>
+                    <rect x="128" y="137" width="385" height="187" rx="8" fill="url(#panel)"/>
+                    <rect x="153" y="161" width="111" height="66" rx="6" fill="#14253a"/>
+                    <text x="169" y="203" fill="#8fe0cc" font-size="25" font-family="sans-serif">180°</text>
+                    <circle cx="316" cy="194" r="23" fill="#f3f5f6" stroke="#8191a0" stroke-width="6"/><path d="M316 194l7-15" stroke="#31465f" stroke-width="4"/>
+                    <circle cx="395" cy="192" r="11" fill="#48b68e"/><circle cx="446" cy="192" r="11" fill="#e3735c"/>
+                    <rect x="294" y="249" width="151" height="34" rx="6" fill="#d0d7dc"/>
+                    <path d="M315 265h26m13 0h26m13 0h27" stroke="#53677a" stroke-width="4"/>
+                  </svg>
+                  <span>03</span>
+                </button>
+                <button class="gallery-thumb" type="button" data-gallery-index="3" aria-label="View image 4" aria-pressed="false">
+                  <svg class="product-art art-racks" viewBox="0 0 640 460" aria-hidden="true">
+                    <path d="M158 116h320v207H158z" fill="#1e3149"/>
+                    <path d="M179 136h278v170H179z" fill="#111f32"/>
+                    <path d="M190 160h256M190 198h256M190 236h256M190 274h256" stroke="#d5dde4" stroke-width="7"/>
+                    <path d="M201 148v141M251 148v141M302 148v141M353 148v141M404 148v141" stroke="#ef9b57" stroke-width="3" opacity=".8"/>
+                    <path d="M143 100h350M143 340h350" stroke="#8795a3" stroke-width="14" stroke-linecap="round"/>
+                    <path d="M172 338v28m272-28v28" stroke="#56677a" stroke-width="9"/>
+                  </svg>
+                  <span>04</span>
+                </button>
+              </div>
+            </div>
+
+            <article class="product-copy">
+              <div class="product-heading">
+                <div>
+                  <p class="product-category" data-th="ระบบอบด้วยฮีตเตอร์" data-en="Heater-based oven system">ระบบอบด้วยฮีตเตอร์</p>
+                  <h2 data-th="ตู้อบ Oven By Heater" data-en="Oven By Heater">ตู้อบ Oven By Heater</h2>
+                </div>
+                <span class="made-to-order" data-th="ออกแบบตามการใช้งาน" data-en="Designed for your process">ออกแบบตามการใช้งาน</span>
+              </div>
+              <p data-th="ตู้อบแบบใช้ฮีตเตอร์ เหมาะสำหรับงานอาหารและงานอบไล่ความชื้นในอุตสาหกรรม ปรับรูปแบบและระบบควบคุมให้สอดคล้องกับผลิตภัณฑ์และกระบวนการของคุณ" data-en="A heater-based industrial oven for food applications and moisture removal. The cabinet and controls can be configured around your product and process.">ตู้อบแบบใช้ฮีตเตอร์ เหมาะสำหรับงานอาหารและงานอบไล่ความชื้นในอุตสาหกรรม ปรับรูปแบบและระบบควบคุมให้สอดคล้องกับผลิตภัณฑ์และกระบวนการของคุณ</p>
+              <p data-th="การกระจายความร้อนที่สม่ำเสมอช่วยรักษาระดับอุณหภูมิให้คงที่ ลดความแปรปรวนของงานผลิต และเลือกชุดคอนโทรลเพื่อช่วยจัดการการใช้พลังงานได้" data-en="Even heat distribution helps maintain a steady temperature and reduce process variation. Optional controls can help manage energy use.">การกระจายความร้อนที่สม่ำเสมอช่วยรักษาระดับอุณหภูมิให้คงที่ ลดความแปรปรวนของงานผลิต และเลือกชุดคอนโทรลเพื่อช่วยจัดการการใช้พลังงานได้</p>
+              <div class="feature-list" id="applications">
+                <div class="feature"><span class="feature-icon" aria-hidden="true">01</span><span data-th="ความร้อนทั่วถึง" data-en="Even heat distribution">ความร้อนทั่วถึง</span></div>
+                <div class="feature"><span class="feature-icon" aria-hidden="true">02</span><span data-th="รองรับงานอบไล่ความชื้น" data-en="Moisture-removal processes">รองรับงานอบไล่ความชื้น</span></div>
+                <div class="feature"><span class="feature-icon" aria-hidden="true">03</span><span data-th="เลือกชุดควบคุมได้" data-en="Optional control system">เลือกชุดควบคุมได้</span></div>
+              </div>
+              <p class="note"><span aria-hidden="true">i</span><span data-th="กำลังฮีตเตอร์ ขนาด และการใช้พลังงานขึ้นอยู่กับรูปแบบการใช้งาน กรุณาสอบถามเพื่อประเมินสเปกที่เหมาะสม" data-en="Heater capacity, dimensions and energy use depend on the application. Contact us to discuss suitable specifications.">กำลังฮีตเตอร์ ขนาด และการใช้พลังงานขึ้นอยู่กับรูปแบบการใช้งาน กรุณาสอบถามเพื่อประเมินสเปกที่เหมาะสม</span></p>
+            </article>
+          </div>
+
+          <aside class="product-aside">
+            <div class="category-card">
+              <p class="aside-label" data-th="หมวดหมู่" data-en="Category">หมวดหมู่</p>
+              <h2 data-th="เครื่องจักรและโปรเจกต์" data-en="Machinery & projects">เครื่องจักรและโปรเจกต์</h2>
+              <a href="#related" data-th="เครื่องหุ้มฟิล์มอัตโนมัติ" data-en="Automatic film wrapping machine">เครื่องหุ้มฟิล์มอัตโนมัติ</a>
+              <a class="is-active" href="#product"><span class="active-dot"></span><span data-th="ตู้อบอุตสาหกรรม Oven By Heater" data-en="Industrial Oven By Heater">ตู้อบอุตสาหกรรม Oven By Heater</span></a>
+              <a href="#related" data-th="Circulation Heater" data-en="Circulation Heater">Circulation Heater</a>
+              <a href="#related" data-th="เครื่องเป่าลมร้อนอุตสาหกรรม" data-en="Industrial hot air blower">เครื่องเป่าลมร้อนอุตสาหกรรม</a>
+            </div>
+
+            <div class="contact-card" id="contact">
+              <div class="contact-card-top">
+                <span class="contact-icon" aria-hidden="true">↗</span>
+                <p class="aside-label" data-th="เริ่มต้นพูดคุย" data-en="Let's talk">เริ่มต้นพูดคุย</p>
+              </div>
+              <h2 data-th="ขอใบเสนอราคา<br>หรือสอบถามสินค้า" data-en="Request a quote<br>or ask a question">ขอใบเสนอราคา<br>หรือสอบถามสินค้า</h2>
+              <p data-th="ส่งรูปหรือสเปกงานมาให้ทีมงานช่วยประเมิน เราพร้อมให้คำปรึกษาเรื่องระบบความร้อน" data-en="Share your photos or requirements. Our team can help you explore the right heating setup.">ส่งรูปหรือสเปกงานมาให้ทีมงานช่วยประเมิน เราพร้อมให้คำปรึกษาเรื่องระบบความร้อน</p>
+              <a class="contact-button" href="https://lin.ee/VVUymw" target="_blank" rel="noreferrer"><span class="button-symbol" aria-hidden="true">L</span><span data-th="แชต LINE @lyn6666" data-en="Chat on LINE @lyn6666">แชต LINE @lyn6666</span><span aria-hidden="true">↗</span></a>
+              <a class="contact-phone" href="tel:+66952365392"><span aria-hidden="true">＋</span> 095-236-5392</a>
+            </div>
+
+            <div class="aside-footnote"><span aria-hidden="true">✳</span><span data-th="แต่ละโปรเจกต์ปรับแต่งตามความต้องการ" data-en="Every project can be tailored to your needs">แต่ละโปรเจกต์ปรับแต่งตามความต้องการ</span></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="related-section" id="related">
+        <div class="container">
+          <div class="related-heading">
+            <div>
+              <p class="section-kicker"><span class="kicker-line"></span><span data-th="โซลูชันเพิ่มเติม" data-en="Explore more">โซลูชันเพิ่มเติม</span></p>
+              <h2 data-th="สินค้าในหมวดเดียวกัน" data-en="More in this category">สินค้าในหมวดเดียวกัน</h2>
+            </div>
+            <a href="#product" class="text-link"><span data-th="ดูสินค้าทั้งหมด" data-en="View all products">ดูสินค้าทั้งหมด</span><span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="related-grid">
+            <a class="related-card" href="#contact">
+              <span class="related-number">01 / HEAT</span>
+              <span class="related-art related-art-coil" aria-hidden="true"><span></span><span></span><span></span></span>
+              <strong>Circulation Heater</strong><span class="related-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="related-card" href="#contact">
+              <span class="related-number">02 / AIR</span>
+              <span class="related-art related-art-air" aria-hidden="true"><span>〰</span><span>〰</span><span>〰</span></span>
+              <strong data-th="เครื่องเป่าลมร้อนอุตสาหกรรม" data-en="Industrial hot air blower">เครื่องเป่าลมร้อนอุตสาหกรรม</strong><span class="related-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="related-card" href="#contact">
+              <span class="related-number">03 / PACK</span>
+              <span class="related-art related-art-wrap" aria-hidden="true"><span></span></span>
+              <strong data-th="เครื่องหุ้มฟิล์มอัตโนมัติ" data-en="Automatic film wrapping machine">เครื่องหุ้มฟิล์มอัตโนมัติ</strong><span class="related-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <div class="footer-brand">
+          <a class="brand brand-inverted" href="./">
+            <span class="brand-mark" aria-hidden="true"><span>H</span></span>
+            <span class="brand-copy"><strong>HEATWORKS</strong><small>INDUSTRIAL HEATING SYSTEMS</small></span>
+          </a>
+          <p data-th="โซลูชันฮีตเตอร์และระบบควบคุม สำหรับงานอุตสาหกรรม" data-en="Heating and control solutions for industrial applications.">โซลูชันฮีตเตอร์และระบบควบคุม สำหรับงานอุตสาหกรรม</p>
+        </div>
+        <div class="footer-links">
+          <h2 data-th="สำรวจ" data-en="Explore">สำรวจ</h2>
+          <a href="./" data-th="หน้าแรก" data-en="Home">หน้าแรก</a>
+          <a href="products/" data-th="สินค้า" data-en="Products">สินค้า</a>
+          <a href="projects/" data-th="ผลงาน" data-en="Projects">ผลงาน</a>
+          <a href="articles/" data-th="บทความ" data-en="Articles">บทความ</a>
+        </div>
+        <div class="footer-links">
+          <h2 data-th="ติดต่อทีมงาน" data-en="Get in touch">ติดต่อทีมงาน</h2>
+          <a href="about/" data-th="เกี่ยวกับเรา" data-en="About">เกี่ยวกับเรา</a>
+          <a href="contact/" data-th="ติดต่อเรา" data-en="Contact">ติดต่อเรา</a>
+          <a href="tel:+66952365392">095-236-5392</a>
+          <a href="mailto:lynpowertech19@gmail.com">lynpowertech19@gmail.com</a>
+          <a href="https://lin.ee/VVUymw" target="_blank" rel="noreferrer">LINE @lyn6666 ↗</a>
+        </div>
+      </div>
+      <div class="container footer-bottom"><span>© 2026 HEATWORKS</span><span data-th="งานวิศวกรรมความร้อนและระบบควบคุม" data-en="Thermal engineering & control systems">งานวิศวกรรมความร้อนและระบบควบคุม</span></div>
+    </footer>
+
+    <a class="floating-contact" href="https://lin.ee/VVUymw" target="_blank" rel="noreferrer"><span class="button-symbol" aria-hidden="true">L</span><span data-th="คุยกับเรา" data-en="Chat with us">คุยกับเรา</span></a>
+
+    <dialog class="image-dialog" aria-label="Product image">
+      <button class="dialog-close" type="button" aria-label="Close image">×</button>
+      <button class="dialog-prev" type="button" aria-label="Previous image">‹</button>
+      <div class="dialog-art"></div>
+      <button class="dialog-next" type="button" aria-label="Next image">›</button>
+      <p class="dialog-caption"></p>
+    </dialog>
+  </body>
+</html>
