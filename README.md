@@ -24,4 +24,4 @@ Pages include Thai and English switching, responsive navigation and contact link
 
 ## GitHub Pages deployment
 
-The GitHub Actions workflow deploys the static site to `https://woraphobsin.github.io/deploy-web2-demo/` on pushes to `main`. The first workflow run enables the repository's GitHub Pages Actions source and publishes the site.
+The GitHub Actions workflow deploys the static site to `https://woraphobsin.github.io/deploy-web2-demo/` on pushes to `main`. In repository settings, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions** once. Subsequent pushes to `main` deploy automatically.
