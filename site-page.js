@@ -55,7 +55,7 @@ document.querySelector("#site-header").innerHTML = `
     <div class="topbar-contact">
       <a href="tel:+66952365392"><span class="topbar-icon" aria-hidden="true">⌕</span> 095-236-5392</a>
       <a href="https://lin.ee/VVUymw" target="_blank" rel="noreferrer"><span class="line-mark" aria-hidden="true">L</span> LINE @lyn6666</a>
-      <a href="mailto:lynpowertech19@gmail.com"><span class="topbar-icon" aria-hidden="true">✉</span> lynpowertech19@gmail.com</a>
+      <a href="mailto:wsin-automator@automation.com"><span class="topbar-icon" aria-hidden="true">✉</span> wsin-automator@automation.com</a>
     </div>
     <span class="topbar-note" data-th="วิศวกรรมความร้อน เพื่อการผลิตที่มั่นใจ" data-en="Thermal engineering for confident production">วิศวกรรมความร้อน เพื่อการผลิตที่มั่นใจ</span>
   </div></div>
@@ -77,7 +77,7 @@ document.querySelector("#site-footer").innerHTML = `
         <p data-th="โซลูชันฮีตเตอร์และระบบควบคุม สำหรับงานอุตสาหกรรม" data-en="Heating and control solutions for industrial applications.">โซลูชันฮีตเตอร์และระบบควบคุม สำหรับงานอุตสาหกรรม</p>
       </div>
       <div class="footer-links"><h2 data-th="สำรวจ" data-en="Explore">สำรวจ</h2>${navigation.slice(0, 4).map(([, href, thai, english]) => `<a href="${href}" data-th="${thai}" data-en="${english}">${thai}</a>`).join("")}</div>
-      <div class="footer-links"><h2 data-th="ติดต่อทีมงาน" data-en="Get in touch">ติดต่อทีมงาน</h2><a href="${siteBase}about/" data-th="เกี่ยวกับเรา" data-en="About">เกี่ยวกับเรา</a><a href="${siteBase}contact/" data-th="ติดต่อเรา" data-en="Contact">ติดต่อเรา</a><a href="tel:+66952365392">095-236-5392</a><a href="mailto:lynpowertech19@gmail.com">lynpowertech19@gmail.com</a><a href="https://lin.ee/VVUymw" target="_blank" rel="noreferrer">LINE @lyn6666 ↗</a></div>
+      <div class="footer-links"><h2 data-th="ติดต่อทีมงาน" data-en="Get in touch">ติดต่อทีมงาน</h2><a href="${siteBase}about/" data-th="เกี่ยวกับเรา" data-en="About">เกี่ยวกับเรา</a><a href="${siteBase}contact/" data-th="ติดต่อเรา" data-en="Contact">ติดต่อเรา</a><a href="tel:+66952365392">095-236-5392</a><a href="mailto:wsin-automator@automation.com">wsin-automator@automation.com</a><a href="https://lin.ee/VVUymw" target="_blank" rel="noreferrer">LINE @lyn6666 ↗</a></div>
     </div>
     <div class="container footer-bottom"><span>© 2026 HEATWORKS</span><span data-th="งานวิศวกรรมความร้อนและระบบควบคุม" data-en="Thermal engineering & control systems">งานวิศวกรรมความร้อนและระบบควบคุม</span></div>
   </footer>
@@ -174,7 +174,7 @@ if (contactForm) {
       "",
       String(formData.get("message") || ""),
     ].join("\n");
-    window.location.href = `mailto:lynpowertech19@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:wsin-automator@automation.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 }
 
